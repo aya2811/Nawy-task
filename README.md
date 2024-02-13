@@ -51,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Backend
 
-#### Model
+#### Apartment Model
 
 * _id: `string`
 *  number: `number`
@@ -64,7 +64,7 @@ To get a local copy up and running follow these simple example steps.
 #### APIs
 
 * POST /apartment/add `To add a new apartment`:
- * Body:
+    * Body:
             `number`
             `floor`
             `block`
