@@ -1,29 +1,9 @@
 <a name="readme-top"></a>
 
 <br />
-<div>
 
 <h3 align="center">Nawy Technical Task</h3>
  
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#Backend">Backend</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
 
 
 ## Getting Started
@@ -71,6 +51,16 @@ To get a local copy up and running follow these simple example steps.
 
 ### Backend
 
+#### Model
+
+* _id: `string`
+*  number: `number`
+*  floor: `number`
+*  block: `number`
+*  street: `string`
+*  district: `string`
+*  city:`string`
+
 #### APIs
 
 * POST /apartment/add `To add a new apartment`:
@@ -82,9 +72,9 @@ To get a local copy up and running follow these simple example steps.
             `district`
             `city`
 
-* GET /apartment/all `To get all apartments`:
+* GET /apartment/all `To get all apartments`
 
-* GET /apartment/:id `To get details of specific apartment`: 
+* GET /apartment/:id `To get details of specific apartment`
     
    
 
